@@ -20,7 +20,7 @@ Download datasets (DICM, LIME, MEF, NPE, VV) and move them into `../datasets/`
 
 ### Testing process
 
-1. Download the [pretrained model](https://drive.google.com/file/d/12cSA50_A5OMKONWL0McQYu2DNrwt4RfG/view?usp=sharing) from Google Drive and move it into `./saved/models/InvEnNet_default/`
+1. Download the [pretrained model](https://drive.google.com/file/d/1ouBkONOMOYCDOjTuUpxmP6UcP070WhTQ/view?usp=drive_link) from Google Drive and move it into `./saved/models/InvEnNet_default/`
 2. Then run the following command:
     ```
     python test.py --resume ./saved/models/InvEnNet_default/checkpoint-epoch400.pth
